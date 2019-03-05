@@ -1,6 +1,6 @@
 # Make a quiz in React.js code challenge
 
-[![quizinator](/public/quizinator.png)](https://protected-beyond-32253.herokuapp.com/)
+(/screenshot.tiff)]
 
 ## ([CLICK HERE TO PLAY QUIZINATOR](https://protected-beyond-32253.herokuapp.com/))
 
