@@ -1,0 +1,332 @@
+body {
+    font-family: futura;
+
+    width: 100wh;
+	height: 90vh;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
+    
+    
+
+
+
+  
+    
+
+
+
+
+
+
+.scorebox {
+    font-size: 90%;
+    
+    padding-right: 10%;
+    font-family: futura;
+    
+    
+}
+
+.score {
+    color: green;
+    font-weight: bold;
+    font-family: futura;
+    
+}
+
+.choice:hover {
+    color: #5a78a8;
+}
+
+.choice {
+    font-size: 20px;
+    padding-left: 10px;
+    
+    
+    color: coral;
+    
+    
+    font-family: futura;
+   
+    
+    
+}
+
+.choice-id {
+    
+    
+    
+    
+}
+
+.category {
+    font-size: 120%;
+    font-family: futura;
+}
+
+.difficulty {
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: futura;
+}
+
+.answer-key {
+    margin: 0 0 3px 0;
+}
+
+.results {
+    font-size: 26px;
+    font-weight: bolder;
+   
+    
+    
+}
+
+.questions{
+    padding-right: 9px;
+    padding-left: 80px
+   
+}
+
+
+.poo {
+    height: 90px;
+    
+    font-size: 100%;
+    float: left;
+    font-family: futura;
+    border-radius: 12px;
+    margin: 10px;
+   
+}
+
+.poon {
+    height: 60px;
+    width: 60px;
+    
+    font-family: futura;
+    
+
+}
+
+.opac{
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+}
+
+.bread{
+    float: left;
+    width: 100%;
+    height: 90px;
+    
+    
+     
+   
+    
+  
+    
+    
+
+}
+
+.sciencetitle {
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: futura;
+    font-size: 40px;
+    color: white;
+    background: #5a78a8;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+   outline: none; 
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #f4b642;
+}
+
+.cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: coral;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+.poop {
+   
+    float: left;
+
+}
+
+h4{
+    font-size: 20px; 
+    font-family: futura;   
+}
+
+.ans{
+    font-size: 40px; 
+    color: green;
+}
+
+.que{
+    font-size: 40px; 
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 5%;
+    color: white;
+
+
+}
+
+.scored {
+    color: black;
+    font-size: 60px;
+
+
+}
+
+.job {
+    padding-bottom: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+
+}
+
