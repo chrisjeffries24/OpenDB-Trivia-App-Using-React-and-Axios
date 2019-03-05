@@ -1,8 +1,8 @@
 # Make a quiz in React.js code challenge
 
-(/screenshot.tiff)]
+##(/screenshot.tiff)
 
-## ([CLICK HERE TO PLAY QUIZINATOR](https://protected-beyond-32253.herokuapp.com/))
+
 
 ### Assignment:
 1. Create an online quiz component that can be placed on a web page. 
